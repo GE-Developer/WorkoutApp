@@ -18,6 +18,9 @@
 		4C7410B729D471FA0045069C /* NavBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C7410B629D471FA0045069C /* NavBarController.swift */; };
 		4C7410B929D472900045069C /* BaseController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C7410B829D472900045069C /* BaseController.swift */; };
 		4C7410BB29D47B130045069C /* UIView + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C7410BA29D47B130045069C /* UIView + Extension.swift */; };
+		4C7410C229D480580045069C /* SessionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C7410C129D480580045069C /* SessionController.swift */; };
+		4C7410C429D480A30045069C /* ProgressController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C7410C329D480A30045069C /* ProgressController.swift */; };
+		4C7410C629D480DC0045069C /* SettingsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C7410C529D480DC0045069C /* SettingsController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +37,9 @@
 		4C7410B629D471FA0045069C /* NavBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavBarController.swift; sourceTree = "<group>"; };
 		4C7410B829D472900045069C /* BaseController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseController.swift; sourceTree = "<group>"; };
 		4C7410BA29D47B130045069C /* UIView + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView + Extension.swift"; sourceTree = "<group>"; };
+		4C7410C129D480580045069C /* SessionController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionController.swift; sourceTree = "<group>"; };
+		4C7410C329D480A30045069C /* ProgressController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressController.swift; sourceTree = "<group>"; };
+		4C7410C529D480DC0045069C /* SettingsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,7 +74,6 @@
 			children = (
 				4C7410AB29D43EAF0045069C /* Helpers */,
 				4C7410A729D435D30045069C /* Application */,
-				4C74109729D433ED0045069C /* OverviewController.swift */,
 				4C7410B329D470650045069C /* Controllers */,
 				4C7410A829D436080045069C /* SupportingFiles */,
 			);
@@ -137,6 +142,7 @@
 		4C7410BD29D47D330045069C /* Overview */ = {
 			isa = PBXGroup;
 			children = (
+				4C74109729D433ED0045069C /* OverviewController.swift */,
 			);
 			path = Overview;
 			sourceTree = "<group>";
@@ -144,6 +150,7 @@
 		4C7410BE29D47D410045069C /* Session */ = {
 			isa = PBXGroup;
 			children = (
+				4C7410C129D480580045069C /* SessionController.swift */,
 			);
 			path = Session;
 			sourceTree = "<group>";
@@ -151,6 +158,7 @@
 		4C7410BF29D47D4B0045069C /* Progress */ = {
 			isa = PBXGroup;
 			children = (
+				4C7410C329D480A30045069C /* ProgressController.swift */,
 			);
 			path = Progress;
 			sourceTree = "<group>";
@@ -158,6 +166,7 @@
 		4C7410C029D47D580045069C /* Settings */ = {
 			isa = PBXGroup;
 			children = (
+				4C7410C529D480DC0045069C /* SettingsController.swift */,
 			);
 			path = Settings;
 			sourceTree = "<group>";
@@ -232,10 +241,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4C7410C629D480DC0045069C /* SettingsController.swift in Sources */,
 				4C74109829D433ED0045069C /* OverviewController.swift in Sources */,
 				4C7410AA29D43DDB0045069C /* TabBarController.swift in Sources */,
 				4C74109429D433ED0045069C /* AppDelegate.swift in Sources */,
 				4C7410B729D471FA0045069C /* NavBarController.swift in Sources */,
+				4C7410C229D480580045069C /* SessionController.swift in Sources */,
+				4C7410C429D480A30045069C /* ProgressController.swift in Sources */,
 				4C7410B029D440A20045069C /* Resources.swift in Sources */,
 				4C74109629D433ED0045069C /* SceneDelegate.swift in Sources */,
 				4C7410B929D472900045069C /* BaseController.swift in Sources */,
